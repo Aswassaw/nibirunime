@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:host {
+  display: block;
+}
+
+nav {
+  padding: 15px;
+  text-align: center;
+  background-color: #5c33f6;
+}
+
+nav a {
+  color: white;
+  font-size: 23px;
+  transition: 0.1s;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  padding: 7px;
+  border-radius: 5px;
+  background-color: rgb(83, 51, 202);
+}

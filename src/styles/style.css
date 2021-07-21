@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", Helvetica, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 10px;
+  transition: 0.1s;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-search {
+  max-width: 500px;
+}
+
+.card-movie {
+  margin-top: 25px;
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 1050px) {
+  .card-movie {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card-search {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
