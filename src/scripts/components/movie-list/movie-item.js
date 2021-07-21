@@ -6,7 +6,7 @@ class MovieItem extends HTMLElement {
 
   render() {
     this.innerHTML += `
-      <img src="${this._movie.attributes.posterImage.small}" alt="${this._movie.attributes.titles || "Anime"} Cover">
+      <img src="${this._movie.attributes.posterImage.small}" alt="${this._movie.attributes.titles.en_jp || "Anime"} Cover">
       <h5>${this._movie.attributes.titles.en_jp || this._movie.attributes.titles.en}</h5>
     `;
   }
